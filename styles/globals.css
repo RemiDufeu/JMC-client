@@ -1,0 +1,115 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: rgb(27, 27, 129);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.colorPrimary {
+  color: rgb(27, 27, 129);
+}
+
+.colorGrey {
+  color: rgb(87, 87, 87);
+}
+
+.fixedBtn {
+  position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.fixedBtn :hover {
+  opacity: 0.8;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.input input {
+  width: 100%;
+  height: 35px;
+  border-color: rgb(189, 189, 189);
+  border: none;
+  border: 3px solid #636363;
+  border-offset: 0px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.input select {
+  height: 35px;
+  border-color: rgb(189, 189, 189);
+  border: none;
+  border: 3px solid #636363;
+  border-offset: 0px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.errorText {
+  margin: 20px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: rgb(117, 38, 38);
+  background-color: rgb(228, 176, 176);
+}
+
+.btnPrimary {
+  background-color: rgb(27, 27, 129);
+  color: white;
+}
+
+.btnRed {
+  background-color: rgb(180, 61, 61);
+  color: white;
+}
+
+.btn {
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 15px;
+  line-height: normal;
+  font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btnContainer {
+  margin: 15px 20px 5px;
+  text-align: right;
+}
+
+.splitForm {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-between;
+}
+
+.splitForm div {
+  width: 400px;
+}

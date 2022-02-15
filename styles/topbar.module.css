@@ -1,0 +1,33 @@
+.barContainer {
+    width: 100vw;
+    box-shadow: -1px -11px 9px 6px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.barContainer a {
+    text-decoration: none;
+    padding: 0 35px;
+    font-size: 22px;
+}
+
+.barContainer a:hover, .active {
+    opacity: 0.6;
+}
+
+.deco {
+    height: 100%;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    border-left: solid rgba(0, 0, 0, 0.096) 0.3px;
+    padding: 0px 30px;
+    font-weight: 600;
+}
+
+.deco:hover {
+    cursor: pointer;
+    color: rgba(134, 134, 134, 0.603);
+}
