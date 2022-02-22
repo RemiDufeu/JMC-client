@@ -27,6 +27,10 @@ const Topbar = () => {
                     <a  className={router.pathname == "/" ?  styles.active : ""}>Kanban</a>
                 </Link>
 
+                <Link href="/Proposition">
+                    <a  className={router.pathname == "/Proposition" ?  styles.active : ""}>Proposition</a>
+                </Link>
+
                 { role == 'admin' && <Link href="/Admin">
                     <a  className={router.pathname == "/Admin" ? styles.active : ""}>Admin</a>
                 </Link>}

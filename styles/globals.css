@@ -113,3 +113,8 @@ a {
 .splitForm div {
   width: 400px;
 }
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
