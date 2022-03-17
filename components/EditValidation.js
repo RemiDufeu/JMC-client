@@ -100,7 +100,7 @@ const EditValidation = ({ proposition, clearEditValidation, estVisible }) => {
 
     const validerBrouillon = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:3001/api/proposition/validation/${proposition._id}`, {
+        fetch(`${settings.backendRoute}/api/proposition/validation/${proposition._id}`, {
             method: 'PUT',
             headers: {
                 'Accept': 'application/json',
